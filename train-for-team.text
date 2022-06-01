@@ -1,0 +1,6 @@
+Bài này sử dụng bộ lọc
+ + Sử dụng mặt nạ đồng nhất (Identity Kernel) trong OpenCV
+   Trước khi giới thiệu cách làm mờ và làm sắc nét ảnh bằng mặt nạ, trước tiên hãy tìm hiểu về mặt nạ đồng nhất.
+   Mặt nạ đồng nhất là một ma trận vuông, trong đó phần tử ở giữa là 1 và tất cả các phần tử khác bằng 0:
+   Ma trận đồng nhất đặc biệt vì khi nhân nó với bất kỳ ma trận nào khác sẽ trả về ma trận ban đầu. 
+   Trong đoạn code bên dưới, chúng ta sẽ sử dụng Mặt nạ đồng nhất ở trên để thể hiện việc lọc sẽ không thay đổi hình ảnh ban đầu
